@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+h2{
+    font-size: 50px;
+}
+p{
+    font-size: 25px;
+}
+header{
+    height: 64px;
+    position: fixed;
+    width: 100%;
+  
+    z-index: 100;
+    background-color: white;
+    margin-top: 0;
+}
+#logo{
+    margin-left:24px;
+    line-height: 32px;
+    display: inline-flex;
+    float: left;
+    padding: 16px 0;
+    text-decoration: none;
+    font-size: 25px;
+}
+#logo p{
+    color:gray;
+}
+#logo strong{
+    color:black;
+}
+#navbar{
+    margin-right: 24px;
+    font-size: 20px;
+}
+#navbar a{
+    padding: 16px 8px;
+    
+    line-height: 32px;
+    display: inline;
+    float: right;
+    text-decoration: none;
+    color:black;
+
+}
+
+#start-learn {
+margin-top: 64px;
+    position: absolute;
+    background-color:lightgrey;
+    width:100%;
+    display: flex;
+    
+}
+#start-learn #image {
+    width: 60%;
+    margin: 32px 24px;
+}
+#image img{
+    width: 100%;
+    height:auto;
+}
+#banner {
+    width: 40%;
+    display: block;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    margin: auto 24px;
+    color: rgb(99, 99, 99);
+    
+}
+#banner h2{
+    margin-bottom: 25px;
+}
+
+#banner .button {
+    margin-top: 25px;
+    background-color:rgb(99, 99, 99);
+    padding:8px;
+    width: 70%;
+    color: white;
+    text-align: center;
+}
+#banner a {
+    text-decoration: none;
+}
