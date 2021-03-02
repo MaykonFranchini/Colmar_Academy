@@ -8,6 +8,9 @@ body{
 h2{
     font-size: 50px;
 }
+h3{
+    font-size: 35px;
+}
 p{
     font-size: 25px;
 }
@@ -49,10 +52,11 @@ header{
     color:black;
 
 }
-
+main{
+    position: absolute;
+}
 #start-learn {
 margin-top: 64px;
-    position: absolute;
     background-color:lightgrey;
     width:100%;
     display: flex;
@@ -90,4 +94,59 @@ margin-top: 64px;
 }
 #banner a {
     text-decoration: none;
+}
+#information {
+  display: flex;
+}
+#info-main{
+    padding: 32px 24px;
+    width: 60%;
+
+}
+#info-main img {
+    width:100%;
+}
+#info-main h2{
+    padding: 32px 0;
+    color: rgb(99, 99, 99);
+    
+}
+#info-main p{
+    padding-bottom: 32px;
+    color: gray;
+}
+#info-sec{
+    width: 40%;
+    padding:32px 0;
+}
+#info-sec .info{
+   display:flex;
+   border: 1px solid lightgrey;
+    
+}
+#info-special{
+    background-color: lightgrey;
+}
+.info.img{
+    width: 35%;
+    height:auto;
+}
+.info .info-data {
+display: block;
+float: right;
+width:65%;
+margin: auto 24px;
+
+}
+.info .info-data p {
+    padding: 10px 0;
+    color: gray;
+}
+.info-data h3 {
+    color: rgb(99, 99, 99);
+}
+.info .info-data a {
+    font-size: 25px;
+    text-decoration: none;
+    color: rgb(141, 185, 200);
 }
