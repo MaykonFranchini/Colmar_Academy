@@ -17,7 +17,7 @@ p{
 header{
     height: 64px;
     position: fixed;
-    width: 100%;
+    width: 100vw;
   
     z-index: 100;
     background-color: white;
@@ -60,12 +60,12 @@ main{
 #start-learn {
 margin-top: 64px;
     background-color:lightgrey;
-    width:100%;
+    width:100vw;
     display: flex;
     
 }
 #start-learn #image {
-    width: 60%;
+    width: 60vw;
     margin: 32px 24px;
 }
 #image img{
@@ -73,7 +73,7 @@ margin-top: 64px;
     height:auto;
 }
 #banner {
-    width: 40%;
+    width: 40vw;
     display: block;
     text-align: left;
     justify-content: center;
@@ -123,14 +123,14 @@ margin-top: 64px;
 }
 #info-sec{
     width: 40%;
-    padding:32px 24px;
+    margin:32px 24px;
 }
 #info-sec .info{
    display:flex;
    border: 1px solid lightgrey;
     
 }
-#info-special{
+#info-special, #exib-spec{
     background-color:#d8d8d8;
 }
 .info.img{
@@ -144,12 +144,12 @@ width:65%;
 margin: auto 24px;
 
 }
-.info .info-data p {
+.info .info-data p , #exib-spec p{
     padding: 10px 0;
-    color: darkgray;
+    color: rgb(116, 116, 116);
     font-weight: 300;
 }
-.info-data h3 {
+.info-data h3, #cont h3{
     color: rgb(99, 99, 99);
     font-weight: 400;
 }
@@ -165,8 +165,8 @@ margin: auto 24px;
 #courses{
     background-color: #eaebec;
 text-align: center;
-    width: 100%;
-    padding: 32px 72px;
+    width: 100vw;
+   
 
 }
 #courses h2 {
@@ -175,9 +175,10 @@ text-align: center;
 }
 #courses-grid {
     display: grid;
-    grid-template-columns: 30% 30% 30%;
+    grid-template-columns: auto auto auto;
     grid-gap: 32px;
     text-align: left;
+    padding: 32px 72px;
 }
 .course{
     background-color: white;
@@ -187,13 +188,88 @@ text-align: center;
     width:100%;
 height:auto;
 }
-.course h3{
+.course h3, .exib-content h3{
     padding: 16px;
     color: rgb(99, 99, 99);
     font-weight: 400;
 }
-.course p {
+.course p, .exib-content p{
     padding: 8px 16px;
     color: darkgray;
     font-weight: 300;
+}
+/* fourth section*/
+
+#exibition {
+    background-color:#f3f5f5;
+    max-width: 100%;
+    display: flex;
+    padding: 32px 24px;
+}
+#exib-left{
+width: 60%;
+margin: 32px 24px;
+
+}
+
+#exib-right {
+    width: 40%;
+    float: right;
+    margin: 32px 24px;
+}
+.exib{
+    display: flex;
+}
+.exib-img {
+    width: 35%;
+height:auto;
+padding: 0 16px;
+}
+.exib-img img{
+    width:100%;
+    height: auto;
+}
+.exib-content {
+    float:right;
+    width: 65%;
+    
+}
+ #exib-spec p{
+background-color:
+}
+#cont {
+    margin-top: 24px;
+}
+
+#cont p {
+    padding: 8px 0 32px 0;
+    color: rgb(116, 116, 116);
+    font-weight: 300;
+}
+hr {
+    color: #eaebec;
+}
+/* footer */
+#footer{
+    width:100%;
+    background-color:#f3f5f5;
+    padding-bottom: 70px;
+}
+#footer p {
+    
+    float: left;
+    padding: 16px 24px;
+    color: rgb(116, 116, 116);
+    font-weight: 300;
+}
+#footer div {
+    
+    padding: 16px 24px;
+    float:right;
+    justify-content: space-between;
+
+}
+#footer a {
+    color: rgb(116, 116, 116);
+    text-decoration: none;
 }
