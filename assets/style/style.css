@@ -55,6 +55,8 @@ header{
 main{
     position: absolute;
 }
+/* first section*/
+
 #start-learn {
 margin-top: 64px;
     background-color:lightgrey;
@@ -95,11 +97,14 @@ margin-top: 64px;
 #banner a {
     text-decoration: none;
 }
+
+
+/* second section*/
 #information {
   display: flex;
 }
 #info-main{
-    padding: 32px 24px;
+    margin: 32px 24px;
     width: 60%;
 
 }
@@ -114,10 +119,11 @@ margin-top: 64px;
 #info-main p{
     padding-bottom: 32px;
     color: gray;
+    font-weight: 300;
 }
 #info-sec{
     width: 40%;
-    padding:32px 0;
+    padding:32px 24px;
 }
 #info-sec .info{
    display:flex;
@@ -125,7 +131,7 @@ margin-top: 64px;
     
 }
 #info-special{
-    background-color: lightgrey;
+    background-color:#d8d8d8;
 }
 .info.img{
     width: 35%;
@@ -140,13 +146,54 @@ margin: auto 24px;
 }
 .info .info-data p {
     padding: 10px 0;
-    color: gray;
+    color: darkgray;
+    font-weight: 300;
 }
 .info-data h3 {
     color: rgb(99, 99, 99);
+    font-weight: 400;
 }
 .info .info-data a {
     font-size: 25px;
     text-decoration: none;
-    color: rgb(141, 185, 200);
+    color: #55bdeb;
+    font-weight: 300;
+}
+
+/* third section*/
+
+#courses{
+    background-color: #eaebec;
+text-align: center;
+    width: 100%;
+    padding: 32px 72px;
+
+}
+#courses h2 {
+    margin: 32px;
+    color: rgb(99, 99, 99)
+}
+#courses-grid {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 32px;
+    text-align: left;
+}
+.course{
+    background-color: white;
+    padding-bottom: 24px;
+}
+.course img {
+    width:100%;
+height:auto;
+}
+.course h3{
+    padding: 16px;
+    color: rgb(99, 99, 99);
+    font-weight: 400;
+}
+.course p {
+    padding: 8px 16px;
+    color: darkgray;
+    font-weight: 300;
 }
